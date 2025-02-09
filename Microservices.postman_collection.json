@@ -16,7 +16,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@eazybytes\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -44,7 +44,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8080/api/fetch?mobileNumber=4354437687",
+              "raw": "http://localhost:8080/api/fetch?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -57,7 +57,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -71,7 +71,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Aminul Bari\",\n    \"email\": \"aminul@gmail.com\",\n    \"mobileNumber\": \"4354437687\",\n    \"accountsDto\": {\n        \"accountNumber\": 1105557729,\n        \"accountType\": \"Savings\",\n        \"branchAddress\": \"123 Main Street, New York\"\n    }\n}",
+              "raw": "{\n    \"name\": \"Aminul Bari\",\n    \"email\": \"aminul@gmail.com\",\n    \"mobileNumber\": \"01828586035\",\n    \"accountsDto\": {\n        \"accountNumber\": 1105557729,\n        \"accountType\": \"Savings\",\n        \"branchAddress\": \"123 Main Street, New York\"\n    }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -99,7 +99,7 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://localhost:8080/api/delete?mobileNumber=4354437687",
+              "raw": "http://localhost:8080/api/delete?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -112,7 +112,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -272,7 +272,7 @@
               }
             ],
             "url": {
-              "raw": "http://localhost:8080/api/fetchCustomerDetails?mobileNumber=4354437687",
+              "raw": "http://localhost:8080/api/fetchCustomerDetails?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -285,7 +285,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -303,7 +303,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:9000/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:9000/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -316,7 +316,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -329,7 +329,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:9000/api/fetch?mobileNumber=4354437687",
+              "raw": "http://localhost:9000/api/fetch?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -342,7 +342,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -356,7 +356,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"mobileNumber\": \"4354437687\",\n    \"cardNumber\": \"100107091026\",\n    \"cardType\": \"Debit Card\",\n    \"totalLimit\": 100000,\n    \"amountUsed\": 10000,\n    \"availableAmount\": 90000\n}",
+              "raw": "{\n    \"mobileNumber\": \"01828586035\",\n    \"cardNumber\": \"100107091026\",\n    \"cardType\": \"Debit Card\",\n    \"totalLimit\": 100000,\n    \"amountUsed\": 10000,\n    \"availableAmount\": 90000\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -384,7 +384,7 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://localhost:9000/api/delete?mobileNumber=4354437687",
+              "raw": "http://localhost:9000/api/delete?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -397,7 +397,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -524,7 +524,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:8090/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:8090/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -537,7 +537,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -550,7 +550,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8090/api/fetch?mobileNumber=4354437687",
+              "raw": "http://localhost:8090/api/fetch?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -563,7 +563,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -577,7 +577,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"mobileNumber\": \"4354437687\",\n    \"loanNumber\": \"10071469799154\",\n    \"loanType\": \"Vehicle Loan\",\n    \"totalLoan\": -100000,\n    \"amountPaid\": -10000,\n    \"outstandingAmount\": -90000\n}",
+              "raw": "{\n    \"mobileNumber\": \"01828586035\",\n    \"loanNumber\": \"10071469799154\",\n    \"loanType\": \"Vehicle Loan\",\n    \"totalLoan\": -100000,\n    \"amountPaid\": -10000,\n    \"outstandingAmount\": -90000\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -605,7 +605,7 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://localhost:8090/api/delete?mobileNumber=4354437687",
+              "raw": "http://localhost:8090/api/delete?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -618,7 +618,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -849,7 +849,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@eazybytes.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -878,7 +878,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/accounts/api/fetch?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/accounts/api/fetch?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -892,7 +892,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -916,7 +916,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -946,7 +946,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/accounts/api/fetch?mobileNumber=4354437688",
+              "raw": "http://localhost:8072/eazybank/accounts/api/fetch?mobileNumber=01766431536",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -961,7 +961,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437688"
+                  "value": "01766431536"
                 }
               ]
             }
@@ -975,7 +975,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1014,7 +1014,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1029,7 +1029,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -1042,7 +1042,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1057,7 +1057,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -1070,7 +1070,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1085,7 +1085,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -1311,7 +1311,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1387,7 +1387,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437688\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01766431536\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1471,7 +1471,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437688",
+              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=01766431536",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1486,7 +1486,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437688"
+                  "value": "01766431536"
                 }
               ]
             }
@@ -1544,7 +1544,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437688",
+              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=01766431536",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1559,7 +1559,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437688"
+                  "value": "01766431536"
                 }
               ]
             }
@@ -1643,7 +1643,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1752,7 +1752,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1767,7 +1767,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -1850,7 +1850,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437687",
+              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=01828586035",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1865,7 +1865,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437687"
+                  "value": "01828586035"
                 }
               ]
             }
@@ -1878,7 +1878,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437688",
+              "raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=01766431536",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -1893,7 +1893,7 @@
               "query": [
                 {
                   "key": "mobileNumber",
-                  "value": "4354437688"
+                  "value": "01766431536"
                 }
               ]
             }
@@ -1912,7 +1912,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1940,7 +1940,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1968,7 +1968,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"4354437687\"\n}",
+              "raw": "{\n    \"accountNumber\": 1234545454,\n    \"name\": \"Tanver Ahammed\",\n    \"email\": \"tutor@mss.com\",\n    \"mobileNumber\": \"01828586035\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
