@@ -4,8 +4,8 @@ build:
 accounts:
   message: "Welcome to EazyBank accounts related QA APIs "
   contactDetails:
-    name: "Smitha Ray - QA Lead"
-    email: "smitha@eazybank.com"
+    name: "Adu - QA Lead"
+    email: "adu@mss.com"
   onCallSupport:
-    - (666) 265-3765
-    - (666) 734-8371
+    - 01XXXXXXXXXXX
+    - 01XXXXXXXXXXX
