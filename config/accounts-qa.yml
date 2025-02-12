@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs "
+  contactDetails:
+    name: "Adu - QA Lead"
+    email: "adu@mss.com"
+  onCallSupport:
+    - 01XXXXXXXXXXX
+    - 01XXXXXXXXXXX
