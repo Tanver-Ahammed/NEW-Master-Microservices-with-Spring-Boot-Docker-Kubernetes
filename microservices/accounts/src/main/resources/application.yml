@@ -14,3 +14,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs "
+  contactDetails:
+    name: "Tanver - Developer"
+    email: "tanver@mss.com"
+  onCallSupport:
+    - 01X28-XXXXXXXX
+    - 01X66-XXXXXXXX

@@ -79,12 +79,13 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.2</version>
                 <configuration>
-                    <image>
-                        <name>tanverit16/${project.artifactId}:v1</name>
-                    </image>
+                    <to>
+                        <image>tanverit16/${project.artifactId}:v6</image>
+                    </to>
                 </configuration>
             </plugin>
             <plugin>
