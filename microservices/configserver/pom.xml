@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.eazybytes</groupId>
-    <artifactId>config-server</artifactId>
+    <artifactId>configserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-server</name>
+    <name>configserver</name>
     <description>Config Server for EazyBank microservices</description>
     <url/>
     <licenses>
