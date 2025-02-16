@@ -10,13 +10,25 @@ spring:
     config:
       server:
         # native:
-          # search-locations: "classpath:/config"    # using inside config server resource
-          # search-locations: "file:///home/tanver/Documents/Code/Microservices/NEW-Master-Microservices-with-Spring-Boot-Docker-Kubernetes/config"    # using file system
+        # search-locations: "classpath:/config"    # using inside config server resource
+        # search-locations: "file:///home/tanver/Documents/Code/Microservices/NEW-Master-Microservices-with-Spring-Boot-Docker-Kubernetes/config"    # using file system
         git:
           uri: "https://github.com/Tanver-Ahammed/mss-config.git"
           default-label: "main"
           timeout: 5
           clone-on-start: true
           force-pull: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
 encrypt:
   key: "45D81EC1EF61DF9AD8D3E5BB397F9"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
