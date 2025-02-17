@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs "
+  contactDetails:
+    name: "Tanver Ahammed - Product Owner"
+    email: "tanver@mss.com"
+  onCallSupport:
+    - 01XXXXXXXXXX
+    - 01XXXXXXXXXX

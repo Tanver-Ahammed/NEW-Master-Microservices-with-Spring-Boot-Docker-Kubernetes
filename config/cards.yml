@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
+  contactDetails:
+    name: "Tanver - Developer"
+    email: "tanver@mss.com"
+  onCallSupport:
+    - 01XXXXXXXXXXX
+    - 01XXXXXXXXXXX
