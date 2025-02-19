@@ -2,7 +2,7 @@ build:
   version: "2.0"
 
 accounts:
-  message: "Welcome to EazyBank accounts related QA APIs "
+  message: "Welcome to MssBank accounts related QA APIs "
   contactDetails:
     name: "Adu - QA Lead"
     email: "adu@mss.com"

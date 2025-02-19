@@ -2,7 +2,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to EazyBank accounts related local APIs "
+  message: "Welcome to MssBank accounts related local APIs "
   contactDetails:
     name: "Tanver Ahammed - Developer"
     email: "tanver@mss.com"
