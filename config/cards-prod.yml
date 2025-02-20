@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to EazyBank cards related prod APIs "
+  message: "Welcome to MssBank cards related prod APIs "
   contactDetails:
     name: "Tanver - Product Owner"
     email: "tanver@mss.com"
