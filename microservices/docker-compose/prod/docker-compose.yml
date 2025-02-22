@@ -30,7 +30,7 @@ services:
       service: microservice-db-config
 
   configserver:
-    image: "tanverit16/configserver:s7"
+    image: "tanverit16/configserver:s8"
     container_name: configserver-service
     ports:
       - "8071:8071"
@@ -45,7 +45,7 @@ services:
       service: microservice-base-config
 
   accounts:
-    image: "tanverit16/accounts:s7"
+    image: "tanverit16/accounts:s8"
     container_name: accounts-service
     ports:
       - "8080:8080"
@@ -62,7 +62,7 @@ services:
       service: microservice-configserver-config
 
   loans:
-    image: "tanverit16/loans:s7"
+    image: "tanverit16/loans:s8"
     container_name: loans-service
     ports:
       - "8090:8090"
@@ -79,7 +79,7 @@ services:
       service: microservice-configserver-config
 
   cards:
-    image: "tanverit16/cards:s7"
+    image: "tanverit16/cards:s8"
     container_name: cards-service
     ports:
       - "9000:9000"
