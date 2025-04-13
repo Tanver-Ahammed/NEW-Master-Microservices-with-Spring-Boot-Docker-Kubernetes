@@ -1,0 +1,47 @@
+services:
+  mysql-accounts:
+    image: mysql:8.0
+    container_name: mysql-accounts
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: accountsdb
+    volumes:
+      - mysql-accounts-data:/var/lib/mysql
+    networks:
+      - backend
+
+  mysql-cards:
+    image: mysql:8.0
+    container_name: mysql-cards
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cardsdb
+    volumes:
+      - mysql-cards-data:/var/lib/mysql
+    networks:
+      - backend
+
+  mysql-loans:
+    image: mysql:8.0
+    container_name: mysql-loans
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: loansdb
+    volumes:
+      - mysql-loans-data:/var/lib/mysql
+    networks:
+      - backend
+
+volumes:
+  mysql-accounts-data:
+  mysql-cards-data:
+  mysql-loans-data:
+
+networks:
+  backend:
