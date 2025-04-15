@@ -4,7 +4,7 @@
 BASE_DIR="$(pwd)/microservices"
 
 # List of microservices to build
-SERVICES=("accounts" "loans" "cards" "configserver", "eurekaserver")
+SERVICES=("accounts" "loans" "cards" "configserver" "eurekaserver")
 
 # Function to build and containerize a microservice
 build_service() {
