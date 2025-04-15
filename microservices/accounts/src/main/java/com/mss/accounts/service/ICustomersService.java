@@ -4,6 +4,6 @@ import com.mss.accounts.dto.CustomerDetailsDto;
 
 public interface ICustomersService {
 
-    CustomerDetailsDto fetchCustomerDetails(String mobileNumber);
+    CustomerDetailsDto fetchCustomerDetails(String correlationId, String mobileNumber);
 
 }

@@ -51,3 +51,9 @@ info:
     name: "accounts"
     description: "MSS Bank Accounts Application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      mss:
+        accounts: debug
