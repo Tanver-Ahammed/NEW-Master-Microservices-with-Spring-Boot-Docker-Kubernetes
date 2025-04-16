@@ -12,9 +12,6 @@ services:
           memory: 700m
 
   microservice-configserver-config:
-    depends_on:
-      configserver:
-        condition: service_healthy
     extends:
       service: microservice-base-config
     environment:
@@ -22,11 +19,6 @@ services:
       SPRING_CONFIG_IMPORT: configserver:http://configserver:8071/
 
   microservice-eureka-config:
-    depends_on:
-      configserver:
-        condition: service_healthy
-      eurekaserver:
-        condition: service_healthy
     extends:
       service: microservice-configserver-config
     environment:
