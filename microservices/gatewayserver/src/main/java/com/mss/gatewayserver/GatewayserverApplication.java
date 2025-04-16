@@ -21,7 +21,10 @@ public class GatewayserverApplication {
                 .route(path -> path
                         .path("/mss/accounts/**")
                         .filters(f -> f.rewritePath("/mss/accounts/(?<segment>.*)", "/${segment}")
-                                .addResponseHeader("X-Response-Time", LocalDateTime.now().toString()))
+                                .addResponseHeader("X-Response-Time", LocalDateTime.now().toString())
+                                .circuitBreaker(config -> config.setName("accountsCircuitBreaker")
+                                        .setFallbackUri("forward:/contactSupport"))
+                        )
                         .uri("lb://ACCOUNTS"))
                 .route(path -> path
                         .path("/mss/cards/**")
