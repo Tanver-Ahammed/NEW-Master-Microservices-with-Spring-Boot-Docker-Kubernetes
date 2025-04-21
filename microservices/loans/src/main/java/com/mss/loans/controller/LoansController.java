@@ -106,8 +106,9 @@ public class LoansController {
             @RequestHeader("mss-correlation-id") String correlationId,
             @RequestParam @Pattern(regexp = "(^$|[0-9]{11})", message = "Mobile number must be 11 digits")
             String mobileNumber) {
-        LOGGER.debug("mss-correlation-id found: {} ", correlationId);
+        LOGGER.debug("fetchLoanDetails method start");
         LoansDto loansDto = iLoansService.fetchLoan(mobileNumber);
+        LOGGER.debug("fetchLoanDetails method end");
         return ResponseEntity.status(HttpStatus.OK).body(loansDto);
     }
 

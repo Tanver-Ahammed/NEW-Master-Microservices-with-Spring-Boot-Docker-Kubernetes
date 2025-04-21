@@ -58,8 +58,9 @@ public class CustomerController {
             @RequestHeader("mss-correlation-id") String correlationId,
             @RequestParam @Pattern(regexp = "(^$|[0-9]{11})", message = "Mobile number must be 11 digits")
             String mobileNumber) {
-        LOGGER.debug("mss-correlation-id found: {} ", correlationId);
+        LOGGER.debug("fetchCustomerDetails method start");
         CustomerDetailsDto customerDetailsDto = iCustomersService.fetchCustomerDetails(correlationId, mobileNumber);
+        LOGGER.debug("fetchCustomerDetails method end");
         return ResponseEntity.status(HttpStatus.SC_OK).body(customerDetailsDto);
     }
 

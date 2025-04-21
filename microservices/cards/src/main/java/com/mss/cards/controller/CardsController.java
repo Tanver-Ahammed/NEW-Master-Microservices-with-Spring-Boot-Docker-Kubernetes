@@ -106,8 +106,9 @@ public class CardsController {
             @RequestHeader("mss-correlation-id") String correlationId,
             @RequestParam @Pattern(regexp = "(^$|[0-9]{11})", message = "Mobile number must be 11 digits")
             String mobileNumber) {
-        LOGGER.debug("mss-correlation-id found: {} ", correlationId);
+        LOGGER.debug("fetchCardDetails method start");
         CardsDto cardsDto = iCardsService.fetchCard(mobileNumber);
+        LOGGER.debug("fetchCardDetails method end");
         return ResponseEntity.status(HttpStatus.OK).body(cardsDto);
     }
 
