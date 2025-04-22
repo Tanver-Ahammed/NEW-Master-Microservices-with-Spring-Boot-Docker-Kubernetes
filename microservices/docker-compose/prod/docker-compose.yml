@@ -219,7 +219,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "tanverit16/configserver:s11"
+    image: "tanverit16/configserver:s12"
     container_name: configserver-service
     ports:
       - "8071:8071"
@@ -234,7 +234,7 @@ services:
       service: microservice-base-config
 
   eurekaserver:
-    image: "tanverit16/eurekaserver:s11"
+    image: "tanverit16/eurekaserver:s12"
     container_name: eurekaserver-service
     ports:
       - "8070:8070"
@@ -254,7 +254,7 @@ services:
       SPRING_APPLICATION_NAME: "eurekaserver"
 
   accounts:
-    image: "tanverit16/accounts:s11"
+    image: "tanverit16/accounts:s12"
     container_name: accounts-service
     ports:
       - "8080:8080"
@@ -276,7 +276,7 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "tanverit16/loans:s11"
+    image: "tanverit16/loans:s12"
     container_name: loans-service
     ports:
       - "8090:8090"
@@ -298,7 +298,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "tanverit16/cards:s11"
+    image: "tanverit16/cards:s12"
     container_name: cards-service
     ports:
       - "9000:9000"
@@ -320,7 +320,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "tanverit16/gatewayserver:s11"
+    image: "tanverit16/gatewayserver:s12"
     container_name: gatewayserver-service
     ports:
       - "8072:8072"
