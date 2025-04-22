@@ -271,8 +271,6 @@ services:
   accounts:
     image: "tanverit16/accounts:s12"
     container_name: accounts-service
-    ports:
-      - "8080:8080"
     depends_on:
       configserver:
         condition: service_healthy
@@ -294,8 +292,6 @@ services:
   loans:
     image: "tanverit16/loans:s12"
     container_name: loans-service
-    ports:
-      - "8090:8090"
     depends_on:
       configserver:
         condition: service_healthy
@@ -317,8 +313,6 @@ services:
   cards:
     image: "tanverit16/cards:s12"
     container_name: cards-service
-    ports:
-      - "9000:9000"
     depends_on:
       configserver:
         condition: service_healthy
