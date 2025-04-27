@@ -247,7 +247,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "tanverit16/configserver:s13"
+    image: "tanverit16/configserver:s14"
     container_name: configserver-service
     ports:
       - "8071:8071"
@@ -264,7 +264,7 @@ services:
       OTEL_SERVICE_NAME: "configserver"
 
   eurekaserver:
-    image: "tanverit16/eurekaserver:s13"
+    image: "tanverit16/eurekaserver:s14"
     container_name: eurekaserver-service
     ports:
       - "8070:8070"
@@ -285,7 +285,7 @@ services:
       OTEL_SERVICE_NAME: "eurekaserver"
 
   accounts:
-    image: "tanverit16/accounts:s13"
+    image: "tanverit16/accounts:s14"
     container_name: accounts-service
     depends_on:
       configserver:
@@ -307,7 +307,7 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "tanverit16/loans:s13"
+    image: "tanverit16/loans:s14"
     container_name: loans-service
     depends_on:
       configserver:
@@ -328,7 +328,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "tanverit16/cards:s13"
+    image: "tanverit16/cards:s14"
     container_name: cards-service
     depends_on:
       configserver:
@@ -349,7 +349,7 @@ services:
       service: microservice-eureka-config
 
   message:
-    image: "tanverit16/message:s13"
+    image: "tanverit16/message:s14"
     container_name: message-service
     depends_on:
       rabbit:
@@ -361,7 +361,7 @@ services:
       service: network-deploy-service
 
   gatewayserver:
-    image: "tanverit16/gatewayserver:s13"
+    image: "tanverit16/gatewayserver:s14"
     container_name: gatewayserver-service
     ports:
       - "8072:8072"

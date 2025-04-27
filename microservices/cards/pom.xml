@@ -131,7 +131,7 @@
                 <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>tanverit16/${project.artifactId}:s13</image>
+                        <image>tanverit16/${project.artifactId}:s14</image>
                     </to>
                 </configuration>
             </plugin>
