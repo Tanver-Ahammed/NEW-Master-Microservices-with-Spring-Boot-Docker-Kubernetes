@@ -75,7 +75,7 @@
                 <version>3.4.3</version>
                 <configuration>
                     <to>
-                        <image>tanverit16/${project.artifactId}:s17</image>
+                        <image>tanverit16/${project.artifactId}:s14</image>
                     </to>
                 </configuration>
             </plugin>
