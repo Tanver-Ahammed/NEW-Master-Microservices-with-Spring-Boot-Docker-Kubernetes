@@ -1,0 +1,6 @@
+dependencies:
+- name: mss-bank-common
+  repository: file://../../mss-bank-common
+  version: 0.1.0
+digest: sha256:a47aa9de0280abe4d659d15a60dc144067ad552cb65c5af76471b6025f660e23
+generated: "2025-05-13T13:26:37.289288916+06:00"
